@@ -1,5 +1,5 @@
 Project Name: PCBRobot
-Project Version: #9e0d4b48
+Project Version: #0bfd79fe
 Project Url: https://www.flux.ai/yeettheanson/pcbrobot
 
 Project Description:
