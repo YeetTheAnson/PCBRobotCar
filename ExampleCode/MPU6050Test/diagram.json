@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "author": "YeetTheAn3On",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "board-esp32-s3-devkitc-1", "id": "esp", "top": -0.18, "left": 4.57, "attrs": {} },
+      { "type": "wokwi-mpu6050", "id": "imu1", "top": 80.62, "left": 194.32, "attrs": {} }
+    ],
+    "connections": [
+      [ "esp:TX", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX", "$serialMonitor:TX", "", [] ],
+      [ "imu1:GND", "esp:GND.2", "black", [ "v0" ] ],
+      [ "imu1:VCC", "esp:5V", "red", [ "v96", "h-143.92", "v105.6", "h-144", "v-67.2" ] ],
+      [ "imu1:SDA", "esp:8", "green", [ "v230.4", "h-287.92", "v-192" ] ],
+      [ "imu1:SCL", "esp:18", "green", [ "v-76.8", "h-287.92", "v96" ] ]
+    ],
+    "dependencies": {}
+  }
