@@ -29,4 +29,4 @@ https://github.com/user-attachments/assets/b00606ff-3382-4d5d-a094-37495e1b7775
 
 ## NOTE
 
-This project does not include the code required to run this
+Example codes can be found in the repo
